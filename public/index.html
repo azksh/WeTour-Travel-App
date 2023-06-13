@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>WETOUR -  Construction Company Website Template Free</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="./cuaca/bootstrap.minK.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <style>
+                 /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {
+            .card-columns {
+                column-count: 2;
+            }
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .card-columns {
+                column-count: 3;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .card-columns {
+                column-count: 4;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .card-columns {
+                column-count: 6;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+        /* Gambar */
+        #td_gempa img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Tulisan */
+        #td_gempa h1 {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        #td_gempa .mobile-caption {
+            display: block;
+        }
+    }
+    
+    
+        
+     </style>
+
+     <!-- import -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5">
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Our Office</h6>
+                        <span>UMN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Email Us</h6>
+                        <span>UMN@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Call Us</h6>
+                        <span>+012 345 6789</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
+        <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>WETOUR</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <div class="nav-item dropdown">
+                        <div class="dropdown-menu m-0">
+                            <a href="project.html" class="dropdown-item">Our Project</a>
+                            <a href="team.html" class="dropdown-item">The Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div>
+                    <a href="" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">Search More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/pantai1.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <i class="fas fa-spa fa-4x text-primary mb-4 d-none d-sm-block"></i>
+                            <h1 class="display-2 text-uppercase text-white mb-md-4">Taking you to the best place</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/pantai2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <i class="fa fa-spa fa-4x text-primary mb-4 d-none d-sm-block"></i>
+                            <h1 class="display-2 text-uppercase text-white mb-md-4">We Are Trusted For Your Journey</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Search More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h1 class="display-5 text-uppercase mb-4">Temukan Perjalanan Seru di <span class="text-primary">Indonesia</span></h1>
+                <h4 class="text-uppercase mb-3 text-body">Raja Ampat, Papua Barat, Papua</h4>
+                <p style = "text-align: justify;">Raja Ampat adalah surga tersembunyi di Indonesia yang terletak di Provinsi Papua Barat. Dikenal sebagai salah satu tujuan wisata terbaik di dunia, 
+                    Raja Ampat menawarkan keindahan alam yang tak tertandingi. Dengan air laut yang jernih, terumbu karang yang menakjubkan, dan keanekaragaman hayati yang luar biasa, Raja Ampat adalah surganya para penyelam. Anda dapat mengeksplorasi dunia bawah laut yang spektakuler dengan berenang bersama ikan-ikan tropis yang berwarna-warni dan melihat terumbu karang yang mengagumkan.</p>
+                <div class="row gx-5 py-2">
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Snorkeling</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i> Diving</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Island hopping</p>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Tracking</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Visit Traditional Village</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Menyaksikan Satwa Liar</p>
+                    </div>
+                </div>
+                <p class="mb-4">Hal tersebut hanya bisa kamu dapatkan di Raja Ampat!</p>
+                <img src="img/LogoRajaAmpat2.png" alt="">
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/RajaAmpat.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+
+    <!-- Services Start -->
+    <div class="container-fluid bg-light py-6 px-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+            <h1 class="display-5 text-uppercase mb-4">Destinasi Yang Sedang <span class="text-primary">Hits</span></h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
+                    <img class="img-fluid" src="img/diengfest.jpg" alt="">
+                    <div class="service-icon bg-white">
+                        <i class="fa fa-3x fa-spa text-primary"></i>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h4 class="text-uppercase mb-3">Music Festival</h4>
+                        <p style="text-align: justify;">Music Festival ini menyuguhkan segala jenis musik yang mampu menyatukan jutaan hati dalam satu irama. Akan tetapi festival ini tidak hanya tentang musik. Di setiap sudut, budaya Dieng berbicara dengan bangga. Dari pameran seni rupa yang menampilkan karya-karya spektakuler hingga pertunjukan tari tradisional yang menawan, pengunjung terpikat oleh keanekaragaman budaya yang hidup dan bernyawa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                    <iframe width="400" height="260" style="z-index:0;left:50px;top:200px"
+                    src="https://www.youtube.com/embed/PbEAykr5xoc">
+                    </iframe>
+                    <div class="service-icon bg-white" style="z-index:50;">
+                        <i class="fa fa-3x fa-spa text-primary"></i>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h4 class="text-uppercase mb-3">Dieng</h4>
+                        <p style = 'text-align: justify;'>Dieng Culture Festival (DCF) merupakan sebuah festival yang bertujuan sebagai pelestarian budaya, pemberdayaan masyarakat, promosi, dan kegiatan sosial. DCF akan diadakan pada bulan Agustus 2023, tepatnya mulai Jumat (25/8/2023) hingga Minggu (27/8/2023), di Dataran Tinggi Dieng, Kabupaten Banjarnegara, Jawa Tengah.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
+                    <img class="img-fluid" src="img/dieng.jpg" alt="">
+                    <div class="service-icon bg-white">
+                        <i class="fa fa-3x fa-spa text-primary"></i>
+                    </div>
+                    <div class="px-4 pb-4">
+                        <h4 class="text-uppercase mb-3">Lampion Festival</h4>
+                        <p style = 'text-align: justify;'>ikutlah merayakan festival lampion Dieng Culture Festival, di mana cahaya dan budaya bergabung dalam satu harmoni yang memukau. Biarkan diri Anda terpesona oleh keajaiban malam yang terang benderang, dan bersiaplah untuk memasuki dunia yang indah dan mempesona di bawah gemerlap lampion-lampion yang menari dengan anggun.</p>                    </div>
+                </div>
+            </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid bg-light py-6 px-5" style="padding-top:10px">
+        <div class="row gx-5">
+            <div class="col-12 text-center">
+                <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
+                    <ul class="list-inline mb-0" id="portfolio-flters">
+                        <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
+                            <img src="img/bali.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">Bali</h6>
+                            </div>
+                        </li>
+                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
+                            <img src="img/menteng.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">Jakarta</h6>
+                            </div>
+                        </li>
+                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
+                            <img src="img/yogyakarta.jpg" style="width: 150px; height: 100px;">
+                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
+                                <h6 class="text-white text-uppercase m-0">Yogyakarta</h6>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center mx-auto mb-5" style="max-width: 1000px;">
+            <h1 class="display-5 text-uppercase mb-4">Cek Cuaca Hari ini Di&nbsp;&nbsp;<span class="text-primary">Kota</span> Anda!</h1>
+        </div>
+        <table border="0" style="margin-bottom:50px;width:100%">
+            <tr><td  style="text-align: center;" colspan="2"><input style="text-align: center;margin:10px" id="kota" class="kota" value='Jakarta'></td></td></tr>  
+            <tr>
+              <td id="td_cuaca" colspan="2" style="text-align:center;padding:5px">
+                <button style="border-radius:10px 10px 10px 10px;margin:10px" onClick="getLocation()">Search Cuaca</button>
+              <h4 id="judulCuaca">Banten, Kota Tangerang Selatan, Serpong 7.90 km</h4>
+              <div class="card-columns" style="width:100%" style="text-align: center;" id="cuaca">
+                <div class="card text-center" style="text-align: center;"><img src="./cuaca/1.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Cerah Berawan</h5><p class="card-text" >2023-05-23 00:00:00</p></div>
+                </div>
+                <div class="card text-center"><img src="./cuaca/1.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Cerah Berawan</h5><p class="card-text">2023-05-23 06:00:00</p></div>
+                </div>
+                <div class="card text-center"><img src="./cuaca/3.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Berawan</h5><p class="card-text">2023-05-23 12:00:00</p></div>
+                </div>
+                <div class="card text-center"><img src="./cuaca/3.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Berawan</h5><p class="card-text">2023-05-23 18:00:00</p></div>
+                </div>
+                <div class="card text-center"><img src="./cuaca/1.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Cerah Berawan</h5><p class="card-text">2023-05-24 00:00:00</p></div>
+                </div>
+                <div class="card text-center"><img src="./cuaca/1.png" class="card-img-top">
+                  <div class="card-body"><h5 class="card-title">Cerah Berawan</h5><p class="card-text">2023-05-24 06:00:00</p></div>
+                </div>
+              </div>
+              <td>
+            </tr>
+        </table>
+
+        <table style="width:100%">
+            <tr>
+                <td id="td_gempa" style="text-align:center;">
+                    <img src="gambar.jpg" alt="Gempa" style="max-width:100%;">
+                    <h1 class="display-5 text-uppercase mb-4">Hindari Area Rawan&nbsp;&nbsp;<span class="text-primary">Gempa!</span></h1>
+                    <span class="mobile-caption">Hindari Area Rawan Gempa!</span>
+                </td>
+            </tr>
+        </table>
+<div class="text-center mx-auto mb-5" style="max-width: 1000px;">
+    <br>
+    <br>
+    <br>
+    <h1 class="display-5 text-uppercase mb-4">Jelajahi Destinasi &nbsp;<span class="text-primary">Wisata</span> Di Kota Anda!</h1>
+   
+</div>
+
+        <div class="row g-5 portfolio-container">
+            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second" id="td_wisata" style="text-align:center;width: 100%;height:400px;"></div>
+            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second" style="width:100%;text-align: center;height:50px;font-size:30px"> 
+
+                <h1 class="display-5 text-uppercase mb-4">Tentukan &nbsp;&nbsp;<span class="text-primary">Hotel</span> Pilihan Anda!</h1>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second" id="td_hotel" style="width: 100%;height:400px;"></div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+  
+
+   
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+
+    <script src="./cuaca/jquery-3.4.1.min.js.download"></script>
+    <script>
+
+
+        var lat = -3.3730914;
+        var lon = 105.7116703;
+
+
+
+        function getWilayah() {
+            $.getJSON('https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json', function (data) {
+                var items = [];
+                var jml = data.length;
+
+                //hitung jarak
+                for (n = 0; n < jml; n++) {
+                    data[n].jarak = distance(lat, lon, data[n].lat, data[n].lon, 'K');
+                }
+
+                //urutkan berdasarkan jarak
+                data.sort(urutkanJarak);
+                var nama_kota=document.getElementById("kota").value;
+                var nama_data="";
+                nama_kota = nama_kota.toUpperCase();
+                //setelah dapat jarak,  ambil 5 terdekat
+                for (n = 0; n < jml; n++) {
+                    items.push('<li class="list-group-item d-flex justify-content-between align-items-center">' + data[n].propinsi +
+                        ', ' + data[n].kota + ', ' + data[n].kecamatan + '<span class="badge badge-primary badge-pill">' + data[n].jarak.toFixed(2) + ' km</span></li>');
+                    if (n > 400) break;
+                   // alert(data[n].kota);
+                   nama_data=data[n].kota;
+                   nama_data=nama_data.toUpperCase();
+                    if(nama_data.indexOf(nama_kota)>=0)
+                    {
+                       // alert(data[n].kota);
+                        break;
+                    }
+                };
+                $('#judulTerdekat').html("Jarak terdekat dari " + lat + "," + lon);
+                $('#wilayahTerdekat').html(items.join(""));
+                $('#judulCuaca').html(data[n].propinsi +
+                        ', ' + data[n].kota + ', ' + data[n].kecamatan + ' ' + data[n].jarak.toFixed(2)+" km dari lokasi anda");
+                getCuaca(data[n].id);
+            });
+        }
+
+        function getCuaca(idWilayah) {
+            $.getJSON('https://ibnux.github.io/BMKG-importer/cuaca/'+idWilayah+'.json', function (data) {
+                var items = [];
+                var jml = data.length;
+
+                //setelah dapat jarak,  ambil 5 terdekat
+                for (n = 0; n < jml; n++) {
+                    items.push('<div class="card text-center">'+
+                            '<img style="width:50px" src="https://ibnux.github.io/BMKG-importer/icon/'+
+                            data[n].kodeCuaca+
+                            '.png" class="card-img-top">'+
+                            '<div class="card-body"><h5 style="font-size:15px" class="card-title">'+
+                            data[n].cuaca+
+                            '</h5><p style="font-size:15px" class="card-text">'+
+                            data[n].jamCuaca+
+                            '</p></div></div>');
+                    if (n > 4) break
+                };
+                $('#cuaca').html(items.join(""));
+            });
+        }
+
+        // https://www.htmlgoodies.com/beyond/javascript/calculate-the-distance-between-two-points-in-your-web-apps.html
+        function distance(lat1, lon1, lat2, lon2) {
+            var radlat1 = Math.PI * lat1 / 180
+            var radlat2 = Math.PI * lat2 / 180
+            var theta = lon1 - lon2
+            var radtheta = Math.PI * theta / 180
+            var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+            dist = Math.acos(dist)
+            dist = dist * 180 / Math.PI
+            dist = dist * 60 * 1.1515
+            return Math.round((dist * 1.609344) * 1000) / 1000;
+        }
+
+        function urutkanJarak(a, b) {
+            if (a['jarak'] === b['jarak']) {
+                return 0;
+            }
+            else {
+                return (a['jarak'] < b['jarak']) ? -1 : 1;
+            }
+        }
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, onErrorGPS);
+            } else {
+                //ga bisa dapat GPS, pake default aja
+                getWilayah();
+            }
+        }
+
+        function showPosition(position) {
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            getWilayah();
+        }
+
+        function onErrorGPS(error) {
+            //ake default aja
+            getWilayah();
+        }
+
+        getLocation();
+    </script>
+
+
+</html>
