@@ -1,0 +1,91 @@
+549  sudo adduser reinaldy
+  550  who
+  551  nano jawab.txt
+  552  sudo - reinaldy
+  553  su - reinaldy
+  554  nano jawab.txt
+  555  nano test.c
+  556  ls -l test.c
+  557  nano jawab.txt
+  558  chmod 400 test.c
+  559  ls -l test.c
+  560  nano jawab.txt
+  561  chmod 200 test.c
+  562  ls -l test.c
+  563  nano jawab.txt
+  564  pico test.txt
+  565  pico test.c
+  566  nano jawab.txt
+  567  chmod 664 test.c
+  568  ls -l test.c
+  569  nano jawab.txt
+  570  gcc test.c -o tess
+  571  ./test
+  572  gcc test.c -o test
+  573  ./test
+  574  ls -l test
+  575  nano jawab.txt
+  576  chmod 600 test.c
+  577  ./test
+  578  nano jawab.txt
+  579  chmod ud+rw test.c
+  580  chmod ug++rw test.c
+  581  chmod ug+rw test.c
+  582  ls -l test.c
+  583  chmod g-w test.c
+  584  ls -l test.c
+  585  find
+  586  pipe
+  587  meta
+  588  find /home -name alamat.txt -print
+  589  ls -l
+  590  cat > asli.txt
+  591  ln -s asli.txt slink.txt
+  592  ls -l slink.txt
+  593  cat slink.txt
+  594  nano asli.txt
+  595  slink.txt
+  596  cat slink.txt
+  597  rm asli.txt
+  598  cat slink.txt
+  599  ls -l slink.txt
+  600  cat slink.txt
+  601  ls -al
+  602  ls -al|more
+  603  touch lima \+dua
+  604  ls
+  605  touch lima \+dua
+  606  ls
+  607  touch lima\$dua
+  608  ls
+  609  touch lima\\dua
+  610  ls
+  611  ls *.txt
+  612  ls -l/bin/m?
+  613  ls -l/bin/m[a-z]
+  614  ls -l/bin/ma*
+  615  ls -l/bin/[m]*
+  616  ls -l/bin/m[a]*
+  617  ls -l/bin/m[!a]*
+  618  cat /etc/shells
+  619  cat/etc/shells
+  620  cat /etc/shells
+  621  lf
+  622  lf=ls
+  623  alias lf=ls
+  624  lf
+  625  alias lf='ls-al'
+  626  lf
+  627  alias lf=ls-al
+  628  lf='ls-al'
+  629  lf
+  630  lf = ls-al
+  631  lf = ls -al
+  632  alias lf=ls-al
+  633  lf=ls-al
+  634  lf='ls-al'
+  635  lf
+  636  grep "chmod"jawab.txt
+  637  history
+  638  nano jawab.txt
+  639  history > history_00000077022.txt
